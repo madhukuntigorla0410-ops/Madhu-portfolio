@@ -1,0 +1,29 @@
+# Copy and paste these commands into Terminal one by one
+# Press Enter after each command
+
+# Step 1: Navigate to the folder
+cd /Users/junaid/Downloads/Madhu
+
+# Step 2: Configure git with Madhu's info
+git config --global user.name "Madhu Kuntigorla"
+git config --global user.email "madhukuntigorla0410@gmail.com"
+
+# Step 3: Initialize git
+git init
+
+# Step 4: Add all files
+git add .
+
+# Step 5: Create commit
+git commit -m "Professional legal portfolio website - Initial launch"
+
+# Step 6: Rename branch to main
+git branch -M main
+
+# Step 7: Add GitHub remote
+git remote add origin https://github.com/madhukuntigorla0410-ops/Madhu-portfolio.git
+
+# Step 8: Push to GitHub (you'll be asked to login)
+git push -u origin main
+
+# Done! Now go to GitHub and enable Pages in Settings

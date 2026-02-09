@@ -1,0 +1,30 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="64" height="64" fill="#0a1f44" rx="8"/>
+  
+  <!-- Scales of Justice Icon -->
+  <!-- Left Scale -->
+  <path d="M 18 28 L 14 34 L 22 34 Z" fill="#d4af37" stroke="#d4af37" stroke-width="1"/>
+  <line x1="18" y1="28" x2="18" y2="34" stroke="#d4af37" stroke-width="1.5"/>
+  
+  <!-- Right Scale -->
+  <path d="M 46 28 L 42 34 L 50 34 Z" fill="#d4af37" stroke="#d4af37" stroke-width="1"/>
+  <line x1="46" y1="28" x2="46" y2="34" stroke="#d4af37" stroke-width="1.5"/>
+  
+  <!-- Main Beam -->
+  <line x1="18" y1="28" x2="46" y2="28" stroke="#d4af37" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Center Pole -->
+  <line x1="32" y1="28" x2="32" y2="48" stroke="#d4af37" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Base -->
+  <rect x="26" y="48" width="12" height="3" fill="#d4af37" rx="1"/>
+  <rect x="24" y="51" width="16" height="2" fill="#d4af37" rx="1"/>
+  
+  <!-- Top Triangle (Balance Point) -->
+  <path d="M 32 24 L 30 28 L 34 28 Z" fill="#d4af37"/>
+  
+  <!-- Decorative Circles on Scales -->
+  <circle cx="18" cy="26" r="1.5" fill="#ffffff"/>
+  <circle cx="46" cy="26" r="1.5" fill="#ffffff"/>
+</svg>
